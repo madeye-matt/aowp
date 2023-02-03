@@ -2,18 +2,20 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" type="text/css" href="/aowp/Data/style.css">
+    <link rel="stylesheet" type="text/css" href="Data/style.css">
 
-    <link rel="shortcut icon" type="image/x-icon" href="/aowp/favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <meta charset="UTF-8">
-    <script type="text/javascript" language="javascript" src="/aowp/Data/UnitAbilitiesNew.json"></script>
-    <script type="text/javascript" language="javascript" src="/aowp/Data/UnitsNew.json"></script>
-    <script type="text/javascript" language="javascript" src="/aowp/Data/BuilderNew.js"></script>
+    <script type="text/javascript" language="javascript" src="Data/UnitAbilitiesNew.json"></script>
+    <script type="text/javascript" language="javascript" src="Data/UnitsNew.json"></script>
+    <script type="text/javascript" language="javascript" src="Data/BuilderNew.js"></script>
     <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
     <script>
         $("#body").ready(function() {
 
-            $("#header").load("/aowp/header.html");
+            console.log("Woo header is loading - not")
+
+            $("#header").load("header.html");
 
 
         });
@@ -34,7 +36,7 @@
 
             <tr>
                 <td class="hometd">
-                    <p style="font-size: 20px; font-family: 'Duru Sans', sans-serif;   text-transform: uppercase;"><img src="/aowp/Icons/UnitTypes/amazon.png" width="50px"> Amazon </p><br>The bio-engineered Amazons have the ability to alter life and survive harsh circumstances.<br>
+                    <p style="font-size: 20px; font-family: 'Duru Sans', sans-serif;   text-transform: uppercase;"><img src="Icons/UnitTypes/amazon.png" width="50px"> Amazon </p><br>The bio-engineered Amazons have the ability to alter life and survive harsh circumstances.<br>
                     <div style="background-color: black">
                         <bulletlist style="background-color: #040605;">
                             <bullet class="homebullet">Command genetically engineered beasts
@@ -49,10 +51,10 @@
                                     <p style="color: aqua">Forest Affinity</p><span class="tooltiptext">Unit gains +200 <happiness></happiness> when fighting on forest hexes</span>
                                 </div>
                             </bullet>
-                            <bullet class="homebullet">Weapons: <a class="homelink" href="/aowp/Pages/Mods/BiochemicalWeaponMods.html"><img src="/aowp/Icons/Text/biochemical.png" width="20px"> Bio </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="homelink" href="/aowp/Pages/Mods/LaserWeaponMods.html"><img src="/aowp/Icons/Text/thermal.png" width="20px"> Laser</a></bullet>
+                            <bullet class="homebullet">Weapons: <a class="homelink" href="Pages/Mods/BiochemicalWeaponMods.html"><img src="Icons/Text/biochemical.png" width="20px"> Bio </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="homelink" href="Pages/Mods/LaserWeaponMods.html"><img src="Icons/Text/thermal.png" width="20px"> Laser</a></bullet>
 
 
-                            <bullet class="homebullet"><a class="homelink" href="/aowp/Pages/Units/AmazonUnits.html"><img src="/aowp/Icons/UnitTypes/amazon.png" width="20px"> Amazon Units </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a class="homelink" href="/aowp/Pages/Mods/AmazonMods.html"><img src="/aowp/Icons/UnitTypes/amazon.png" width="20px"> Amazon Mods</a></bullet>
+                            <bullet class="homebullet"><a class="homelink" href="Pages/Units/AmazonUnits.html"><img src="Icons/UnitTypes/amazon.png" width="20px"> Amazon Units </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a class="homelink" href="Pages/Mods/AmazonMods.html"><img src="Icons/UnitTypes/amazon.png" width="20px"> Amazon Mods</a></bullet>
 
 
                         </bulletlist>
@@ -61,7 +63,7 @@
 
                 </td>
                 <td class="hometd">
-                    <p style="font-size: 20px; font-family: 'Duru Sans', sans-serif;   text-transform: uppercase;"><img src="/aowp/Icons/UnitTypes/assembly.png" width="50px"> Assembly </p><br>The Assembly is a race of cyborgs born from destruction. <br>
+                    <p style="font-size: 20px; font-family: 'Duru Sans', sans-serif;   text-transform: uppercase;"><img src="Icons/UnitTypes/assembly.png" width="50px"> Assembly </p><br>The Assembly is a race of cyborgs born from destruction. <br>
                     <div style="background-color: black">
                         <bulletlist>
                             <bullet class="homebullet">Reassemble fallen units, bringing them back to life
@@ -75,11 +77,11 @@
                             <bullet class="homebullet"><span style="color:bisque">Long-term bonus:</span> No delay when applying Unit Mods.
                                 <bullet class="homebullet"><span style="color:bisque">Racial Ability: </span> Natural resistance to Arc Damage.
                                 </bullet>
-                                <bullet class="homebullet">Weapons: <a class="homelink" href="/aowp/Pages/Mods/ArcWeaponMods.html"><img src="/aowp/Icons/Text/arc.png" width="20px"> Arc</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a class="homelink" href="/aowp/Pages/Mods/KineticWeaponMods.html"><img src="/aowp/Icons/Text/kinetic.png" width="20px"> Firearms</a></bullet>
+                                <bullet class="homebullet">Weapons: <a class="homelink" href="Pages/Mods/ArcWeaponMods.html"><img src="Icons/Text/arc.png" width="20px"> Arc</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a class="homelink" href="Pages/Mods/KineticWeaponMods.html"><img src="Icons/Text/kinetic.png" width="20px"> Firearms</a></bullet>
 
 
                             </bullet>
-                            <bullet class="homebullet"><a class="homelink" href="/aowp/Pages/Units/AssemblyUnits.html"><img src="/aowp/Icons/UnitTypes/assembly.png" width="20px"> Assembly Units </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a class="homelink" href="/aowp/Pages/Mods/AssemblyMods.html"><img src="/aowp/Icons/UnitTypes/assembly.png" width="20px"> Assembly Mods </a></bullet>
+                            <bullet class="homebullet"><a class="homelink" href="Pages/Units/AssemblyUnits.html"><img src="Icons/UnitTypes/assembly.png" width="20px"> Assembly Units </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a class="homelink" href="Pages/Mods/AssemblyMods.html"><img src="Icons/UnitTypes/assembly.png" width="20px"> Assembly Mods </a></bullet>
 
                         </bulletlist>
                         <br>
@@ -92,7 +94,7 @@
             </tr>
             <tr>
                 <td class="hometd">
-                    <p style="font-size: 20px; font-family: 'Duru Sans', sans-serif;   text-transform: uppercase;"><img src="/aowp/Icons/UnitTypes/dvar.png" width="50px"> Dvar </p><br>The Dvar are a thrifty race of survivalists.<br>
+                    <p style="font-size: 20px; font-family: 'Duru Sans', sans-serif;   text-transform: uppercase;"><img src="Icons/UnitTypes/dvar.png" width="50px"> Dvar </p><br>The Dvar are a thrifty race of survivalists.<br>
                     <div style="background-color: black">
                         <bulletlist style="background-color: #040605;">
                             <bullet class="homebullet">Powerful area of effect and medium range attacks
@@ -106,10 +108,10 @@
                             <bullet class="homebullet"><span style="color:bisque">Long-term bonus:</span>Hurry Production is 15% cheaper
                             </bullet>
 
-                            <bullet class="homebullet">Weapons: <a class="homelink" href="/aowp/Pages/Mods/KineticWeaponMods.html"><img src="/aowp/Icons/Text/kinetic.png" width="20px"> Firearms </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="homelink" href="/aowp/Pages/Mods/LaserWeaponMods.html"><img src="/aowp/Icons/Text/kinetic.png" width="20px"> Explosive</a></bullet>
+                            <bullet class="homebullet">Weapons: <a class="homelink" href="Pages/Mods/KineticWeaponMods.html"><img src="Icons/Text/kinetic.png" width="20px"> Firearms </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="homelink" href="Pages/Mods/LaserWeaponMods.html"><img src="Icons/Text/kinetic.png" width="20px"> Explosive</a></bullet>
 
 
-                            <bullet class="homebullet"><a class="homelink" href="/aowp/Pages/Units/DvarUnits.html"><img src="/aowp/Icons/UnitTypes/dvar.png" width="20px"> Dvar Units </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a class="homelink" href="/aowp/Pages/Mods/DvarMods.html"><img src="/aowp/Icons/UnitTypes/dvar.png" width="20px"> Dvar Mods</a></bullet>
+                            <bullet class="homebullet"><a class="homelink" href="Pages/Units/DvarUnits.html"><img src="Icons/UnitTypes/dvar.png" width="20px"> Dvar Units </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a class="homelink" href="Pages/Mods/DvarMods.html"><img src="Icons/UnitTypes/dvar.png" width="20px"> Dvar Mods</a></bullet>
 
 
                         </bulletlist>
@@ -118,7 +120,7 @@
 
                 </td>
                 <td class="hometd">
-                    <p style="font-size: 20px; font-family: 'Duru Sans', sans-serif;   text-transform: uppercase;"><img src="/aowp/Icons/UnitTypes/kirko.png" width="50px"> Kir'Ko </p><br>Through rapid evolution, the Kir'Ko seek to restore what was broken and will find retribution for the terrible fate that has befallen them.<br>
+                    <p style="font-size: 20px; font-family: 'Duru Sans', sans-serif;   text-transform: uppercase;"><img src="Icons/UnitTypes/kirko.png" width="50px"> Kir'Ko </p><br>Through rapid evolution, the Kir'Ko seek to restore what was broken and will find retribution for the terrible fate that has befallen them.<br>
                     <div style="background-color: black">
                         <bulletlist style="background-color: #040605;">
                             <bullet class="homebullet">Rapid population growth and large armies
@@ -135,10 +137,10 @@
                                     <p style="color: aqua">Swarm Shield</p><span class="tooltiptext">Unit gains +2 <shield></shield> when adjecent to another unit with Swarm Shield</span> and faster Regeneration
                                 </div>
                             </bullet>
-                            <bullet class="homebullet">Weapons: <a class="homelink" href="/aowp/Pages/Mods/BiochemicalWeaponMods.html"><img src="/aowp/Icons/Text/biochemical.png" width="20px"> Bio </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="homelink" href="/aowp/Pages/Mods/PsionicWeaponMods.html"><img src="/aowp/Icons/Text/psionic.png" width="20px"> Psi</a></bullet>
+                            <bullet class="homebullet">Weapons: <a class="homelink" href="Pages/Mods/BiochemicalWeaponMods.html"><img src="Icons/Text/biochemical.png" width="20px"> Bio </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="homelink" href="Pages/Mods/PsionicWeaponMods.html"><img src="Icons/Text/psionic.png" width="20px"> Psi</a></bullet>
 
 
-                            <bullet class="homebullet"><a class="homelink" href="/aowp/Pages/Units/KirkoUnits.html"><img src="/aowp/Icons/UnitTypes/kirko.png" width="20px"> Kir'Ko Units </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a class="homelink" href="/aowp/Pages/Mods/KirkoMods.html"><img src="/aowp/Icons/UnitTypes/kirko.png" width="20px"> Kir'Ko Mods</a></bullet>
+                            <bullet class="homebullet"><a class="homelink" href="Pages/Units/KirkoUnits.html"><img src="Icons/UnitTypes/kirko.png" width="20px"> Kir'Ko Units </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a class="homelink" href="Pages/Mods/KirkoMods.html"><img src="Icons/UnitTypes/kirko.png" width="20px"> Kir'Ko Mods</a></bullet>
 
 
                         </bulletlist>
@@ -150,7 +152,7 @@
             </tr>
             <tr>
                 <td class="hometd">
-                    <p style="font-size: 20px; font-family: 'Duru Sans', sans-serif;   text-transform: uppercase;"><img src="/aowp/Icons/UnitTypes/syndicate.png" width="50px"> Syndicate </p><br>The Syndicate are a group of ruthless trading Houses from the Empire.<br>
+                    <p style="font-size: 20px; font-family: 'Duru Sans', sans-serif;   text-transform: uppercase;"><img src="Icons/UnitTypes/syndicate.png" width="50px"> Syndicate </p><br>The Syndicate are a group of ruthless trading Houses from the Empire.<br>
                     <div style="background-color: black">
                         <bulletlist style="background-color: #040605;">
                             <bullet class="homebullet">Indentured slave units morale penalties
@@ -163,10 +165,10 @@
                             <bullet class="homebullet"><span style="color:bisque">Long-term bonus:</span>+1 Doctrine Slot
                             </bullet>
 
-                            <bullet class="homebullet">Weapons: <a class="homelink" href="/aowp/Pages/Mods/ArcWeaponMods.html"><img src="/aowp/Icons/Text/arc.png" width="20px"> Arc </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="homelink" href="/aowp/Pages/Mods/PsionicWeaponMods.html"><img src="/aowp/Icons/Text/psionic.png" width="20px"> Psi</a></bullet>
+                            <bullet class="homebullet">Weapons: <a class="homelink" href="Pages/Mods/ArcWeaponMods.html"><img src="Icons/Text/arc.png" width="20px"> Arc </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="homelink" href="Pages/Mods/PsionicWeaponMods.html"><img src="Icons/Text/psionic.png" width="20px"> Psi</a></bullet>
 
 
-                            <bullet class="homebullet"><a class="homelink" href="/aowp/Pages/Units/SyndicateUnits.html"><img src="/aowp/Icons/UnitTypes/syndicate.png" width="20px"> Syndicate Units </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a class="homelink" href="/aowp/Pages/Mods/SyndicateMods.html"><img src="/aowp/Icons/UnitTypes/syndicate.png" width="20px"> Syndicate Mods</a></bullet>
+                            <bullet class="homebullet"><a class="homelink" href="Pages/Units/SyndicateUnits.html"><img src="Icons/UnitTypes/syndicate.png" width="20px"> Syndicate Units </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a class="homelink" href="Pages/Mods/SyndicateMods.html"><img src="Icons/UnitTypes/syndicate.png" width="20px"> Syndicate Mods</a></bullet>
 
 
                         </bulletlist>
@@ -176,7 +178,7 @@
                 </td>
 
                 <td class="hometd">
-                    <p style="font-size: 20px; font-family: 'Duru Sans', sans-serif;   text-transform: uppercase;"><img src="/aowp/Icons/UnitTypes/vanguard.png" width="50px"> Vanguard </p><br>The Vanguard consists of rough folk with few ties to society.<br>
+                    <p style="font-size: 20px; font-family: 'Duru Sans', sans-serif;   text-transform: uppercase;"><img src="Icons/UnitTypes/vanguard.png" width="50px"> Vanguard </p><br>The Vanguard consists of rough folk with few ties to society.<br>
                     <div style="background-color: black">
                         <bulletlist style="background-color: #040605;">
                             <bullet class="homebullet">Deploy combat drones and turrets
@@ -192,10 +194,10 @@
                             <bullet class="homebullet"><span style="color:bisque">Long-term bonus:</span>Produced units have +1 Rank
                             </bullet>
 
-                            <bullet class="homebullet">Weapons: <a class="homelink" href="/aowp/Pages/Mods/KineticWeaponMods.html"><img src="/aowp/Icons/Text/kinetic.png" width="20px"> Firearms </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="homelink" href="/aowp/Pages/Mods/LaserWeaponMods.html"><img src="/aowp/Icons/Text/thermal.png" width="20px"> Laser</a></bullet>
+                            <bullet class="homebullet">Weapons: <a class="homelink" href="Pages/Mods/KineticWeaponMods.html"><img src="Icons/Text/kinetic.png" width="20px"> Firearms </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="homelink" href="Pages/Mods/LaserWeaponMods.html"><img src="Icons/Text/thermal.png" width="20px"> Laser</a></bullet>
 
 
-                            <bullet class="homebullet"><a class="homelink" href="/aowp/Pages/Units/VanguardUnits.html"><img src="/aowp/Icons/UnitTypes/vanguard.png" width="20px"> Vanguard Units </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a class="homelink" href="/aowp/Pages/Mods/VanguardMods.html"><img src="/aowp/Icons/UnitTypes/vanguard.png" width="20px"> Vanguard Mods</a></bullet>
+                            <bullet class="homebullet"><a class="homelink" href="Pages/Units/VanguardUnits.html"><img src="Icons/UnitTypes/vanguard.png" width="20px"> Vanguard Units </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a class="homelink" href="Pages/Mods/VanguardMods.html"><img src="Icons/UnitTypes/vanguard.png" width="20px"> Vanguard Mods</a></bullet>
 
 
                         </bulletlist>
@@ -209,7 +211,7 @@
             </tr>
             <tr>
                 <td class="hometd">
-                    <p style="font-size: 20px; font-family: 'Duru Sans', sans-serif;   text-transform: uppercase;"><img src="/aowp/Icons/UnitTypes/shakarn.png" width="50px"> Shakarn <span style="color: darkred">(Invasions)</span> </p><br>The Shakarn waited at the edge of the known Star Union. Preparing and researching. Spying from within.<br>
+                    <p style="font-size: 20px; font-family: 'Duru Sans', sans-serif;   text-transform: uppercase;"><img src="Icons/UnitTypes/shakarn.png" width="50px"> Shakarn <span style="color: darkred">(Invasions)</span> </p><br>The Shakarn waited at the edge of the known Star Union. Preparing and researching. Spying from within.<br>
                     <div style="background-color: black">
                         <bulletlist style="background-color: #040605;">
                             <bullet class="homebullet">Omni weapons Combine Sound and Laser Technology
@@ -228,10 +230,10 @@
                             </bullet>
                             <bullet class="homebullet"><span style="color:bisque">Long-term bonus:</span>Use Infiltrate Operations Center to steal Racial Tech Trees
                             </bullet>
-                            <bullet class="homebullet">Weapons: <a class="homelink" href="/aowp/Pages/Mods/SonicWeaponMods.html"><img src="/aowp/Icons/Text/kinetic.png" width="20px"> Sonic </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="homelink" href="/aowp/Pages/Mods/LaserWeaponMods.html"><img src="/aowp/Icons/Text/thermal.png" width="20px"> Laser</a></bullet>
+                            <bullet class="homebullet">Weapons: <a class="homelink" href="Pages/Mods/SonicWeaponMods.html"><img src="Icons/Text/kinetic.png" width="20px"> Sonic </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="homelink" href="Pages/Mods/LaserWeaponMods.html"><img src="Icons/Text/thermal.png" width="20px"> Laser</a></bullet>
 
 
-                            <bullet class="homebullet"><a class="homelink" href="/aowp/Pages/Units/ShakarnUnits.html"><img src="/aowp/Icons/UnitTypes/shakarn.png" width="20px"> Shakarn Units </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a class="homelink" href="/aowp/Pages/Mods/ShakarnMods.html"><img src="/aowp/Icons/UnitTypes/shakarn.png" width="20px"> Shakarn Mods</a></bullet>
+                            <bullet class="homebullet"><a class="homelink" href="Pages/Units/ShakarnUnits.html"><img src="Icons/UnitTypes/shakarn.png" width="20px"> Shakarn Units </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a class="homelink" href="Pages/Mods/ShakarnMods.html"><img src="Icons/UnitTypes/shakarn.png" width="20px"> Shakarn Mods</a></bullet>
 
 
                         </bulletlist>
@@ -240,7 +242,7 @@
 
                 </td>
                 <td class="hometd">
-                    <p style="font-size: 20px; font-family: 'Duru Sans', sans-serif;   text-transform: uppercase;"><img src="/aowp/Icons/UnitTypes/oathbound.png" width="50px"> Oathbound <span style="color: yellow">(Star Kings)</span> </p><br>The Oathbound are a feudal society led by the wise Seers and their predictions of the future, guiding the honor-bound Paladins in their powerful battle souts to maintain order.<br>
+                    <p style="font-size: 20px; font-family: 'Duru Sans', sans-serif;   text-transform: uppercase;"><img src="Icons/UnitTypes/oathbound.png" width="50px"> Oathbound <span style="color: yellow">(Star Kings)</span> </p><br>The Oathbound are a feudal society led by the wise Seers and their predictions of the future, guiding the honor-bound Paladins in their powerful battle souts to maintain order.<br>
                     <div style="background-color: black">
                         <bulletlist style="background-color: #040605;">
                             <bullet class="homebullet">Battelsuits use Arc based melee attack.
@@ -257,10 +259,10 @@
                             </bullet>
                             <bullet class="homebullet"><span style="color:bisque">Long-term bonus:</span>Positive Reputation Modifiers last 50% longer.
                             </bullet>
-                            <bullet class="homebullet">Weapons: <a class="homelink" href="/aowp/Pages/Mods/ArcWeaponMods.html"><img src="/aowp/Icons/Text/arc.png" width="20px"> Arc </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="homelink" href="/aowp/Pages/Mods/EntropyWeaponMods.html"><img src="/aowp/Icons/Text/entropy.png" width="20px"> Entropy</a></bullet>
+                            <bullet class="homebullet">Weapons: <a class="homelink" href="Pages/Mods/ArcWeaponMods.html"><img src="Icons/Text/arc.png" width="20px"> Arc </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="homelink" href="Pages/Mods/EntropyWeaponMods.html"><img src="Icons/Text/entropy.png" width="20px"> Entropy</a></bullet>
 
 
-                            <bullet class="homebullet"><a class="homelink" href="/aowp/Pages/Units/OathboundUnits.html"><img src="/aowp/Icons/UnitTypes/oathbound.png" width="20px"> Oathbound Units </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a class="homelink" href="/aowp/Pages/Mods/OathboundMods.html"><img src="/aowp/Icons/UnitTypes/oathbound.png" width="20px"> Oathbound Mods</a></bullet>
+                            <bullet class="homebullet"><a class="homelink" href="Pages/Units/OathboundUnits.html"><img src="Icons/UnitTypes/oathbound.png" width="20px"> Oathbound Units </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a class="homelink" href="Pages/Mods/OathboundMods.html"><img src="Icons/UnitTypes/oathbound.png" width="20px"> Oathbound Mods</a></bullet>
 
 
                         </bulletlist>
